@@ -4,7 +4,7 @@ Este projeto representa um **Sandbox de Aprendizado** focado na construção de 
 
 ---
 
-##Arquitetura do Sistema
+## Arquitetura do Sistema
 
 A aplicação implementa o padrão de **Arquitetura em Camadas (N-Tier)**, garantindo o desacoplamento e a separação de responsabilidades (Single Responsibility Principle).
 
@@ -43,7 +43,7 @@ Funcionalidades que atravessam todas as camadas do sistema.
 
 ---
 
-##Glossário Técnico de Anotações
+## Glossário Técnico de Anotações
 
 | Anotação | Responsabilidade |
 | :--- | :--- |
@@ -56,7 +56,7 @@ Funcionalidades que atravessam todas as camadas do sistema.
 
 ---
 
-##Fluxo de Processamento (Mapa Mental)
+## Fluxo de Processamento (Mapa Mental)
 
 1.  **Request**: O cliente envia um JSON via `POST /person`.
 2.  **Controller**: O `@RequestBody` converte o JSON no objeto `Person`.
