@@ -66,4 +66,18 @@ Funcionalidades que atravessam todas as camadas do sistema.
 6.  **Response**: O objeto persistido retorna por toda a cadeia até o cliente com Status 200 OK.
 7.  **Erro**: Caso o ID solicitado em um `GET` não exista, a `ResourceNotFoundException` é lançada, o `Handler` a captura e retorna um 404 Not Found estruturado.
 
+### 5. Camada de Observabilidade (Actuator)
+Responsável por monitorar a saúde da aplicação e expor métricas operacionais em tempo real, fundamental para a manutenção de microsserviços em produção.
+Spring Boot Actuator: Fornece endpoints integrados que permitem "olhar para dentro" da aplicação sem a necessidade de criar rotas manuais para isso.Health Check: Verifica se a aplicação e suas dependências (como o MySQL) estão operacionais.Metrics: Expõe dados de performance (uso de CPU, memória, latência de requisições).Info: Exibe informações customizadas sobre a versão e o estado do build do projeto.
+
+## 📊 Glossário Técnico: Endpoints Actuator
+
+| Endpoint              | Função                                                                 |
+|----------------------|------------------------------------------------------------------------|
+| /actuator/health     | Exibe o status da aplicação (UP/DOWN) e de componentes externos.      |
+| /actuator/metrics    | Lista as métricas disponíveis (ex: http.server.requests, jvm.memory.used). |
+| /actuator/env        | Expõe as propriedades do ambiente e variáveis de configuração.        |
+| /actuator/loggers    | Permite visualizar e alterar o nível de log (INFO, DEBUG) em tempo de execução. |
+| /actuator/mappings   | Lista todos os caminhos (URI) mapeados nos @Controllers.              |
+
 
