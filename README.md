@@ -70,13 +70,14 @@ Funcionalidades que atravessam todas as camadas do sistema.
 Responsável por monitorar a saúde da aplicação e expor métricas operacionais em tempo real, fundamental para a manutenção de microsserviços em produção.
 Spring Boot Actuator: Fornece endpoints integrados que permitem "olhar para dentro" da aplicação sem a necessidade de criar rotas manuais para isso.## 📊 Glossário Técnico: Conceitos Actuator
 
+### Elementos
 | Conceito      | Descrição                                                                 |
 |---------------|--------------------------------------------------------------------------|
 | Health Check  | Verifica se a aplicação e suas dependências (como o MySQL) estão operacionais. |
 | Metrics       | Expõe dados de performance (uso de CPU, memória, latência de requisições). |
 | Info          | Exibe informações customizadas sobre a versão e o estado do build do projeto. |
 
-## 📊 Glossário Técnico: Endpoints Actuator
+### Endpoints Actuator
 
 | Endpoint              | Função                                                                 |
 |----------------------|------------------------------------------------------------------------|
