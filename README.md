@@ -43,7 +43,7 @@ Funcionalidades que atravessam todas as camadas do sistema.
 
 ---
 
-## Glossário Técnico de Anotações
+## Anotações
 
 | Anotação | Responsabilidade |
 | :--- | :--- |
